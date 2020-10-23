@@ -1,0 +1,2 @@
+21 Oct : tienen codigo, esta en visual. Estan traducinedo al español las variables del codigo reusado. 
+	 Todos colaboran en GitHub. No hay paralelización aun. No hay Readme. Documentación de porque el openMP.
