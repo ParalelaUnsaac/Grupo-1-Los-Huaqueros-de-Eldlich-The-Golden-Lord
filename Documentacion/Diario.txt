@@ -1,2 +1,3 @@
 07/10 Se ha creado los proyectos en el GitHub
 07/10 Inicializado proyecto
+22/10 verificacion del proyecto en colab utilizando las librerias de openMP para paralelizar y poder utilizar distintos hilos.
