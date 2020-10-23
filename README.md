@@ -21,7 +21,7 @@
 ---
 ## Tema
 
-.Programa que soluciona un sudoku nxn, con un algoritmo de backtraking
+.*Programa que soluciona un sudoku nxn, con un algoritmo de backtraking
 
 ### Implementado en:
 - Lenguaje:C++ and Python
@@ -31,6 +31,6 @@
 [Ir a Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 [Obtener Visual Studio Code](https://code.visualstudio.com/download)
 ###Enlace de diario personal
-[Documento de Presentacion](https://docs.google.com/presentation/d/1e4iR5D2NYpV1ujiJVhsh8q3OvkaRal6wfqB3RgLqrEc/edit?usp=sharing)
+-*[Documento de Presentacion](https://docs.google.com/presentation/d/1e4iR5D2NYpV1ujiJVhsh8q3OvkaRal6wfqB3RgLqrEc/edit?usp=sharing)
 
 
