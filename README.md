@@ -1,2 +1,2 @@
-# G1-2020-1
-sebas time
+#Grupo 1: Los Huaqueros de Eldlich The Golden Lord
+
