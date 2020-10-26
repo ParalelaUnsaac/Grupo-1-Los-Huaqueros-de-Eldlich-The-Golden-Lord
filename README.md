@@ -40,5 +40,5 @@ Tenemos que usar los dígitos del 1 al N para resolver este problema.
 
 Usando el algoritmo de Bractraking paralelo intentaremos resolver el problema de Sudoku. Cuando alguna celda se llena con un dígito, comprueba si es válido o no. Cuando no es válido, busca otros números. Si se marcan todos los números del 1 al N y no se encuentra ningún dígito válido para colocar, retrocede a la opción anterior. Y finalmente se intentara con todas las opciones posibles. Caso que no se encuentre ninguna solucion el programa nos enviara un mensaje de que "No existe Solucion"
 
-#### ¿Porque paralelizamos y Como?
+#### <center>¿Porque paralelizamos y Como?<center>
 Paralelisamos porque nuestro algoritmo se demora en resolver programas complejos
