@@ -32,5 +32,7 @@
 [Obtener Visual Studio Code](https://code.visualstudio.com/download)
 ### Enlace de diario personal
 -[Documento de Presentacion](https://docs.google.com/presentation/d/1e4iR5D2NYpV1ujiJVhsh8q3OvkaRal6wfqB3RgLqrEc/edit?usp=sharing)
+### Descripcion del problema
+Supongamos que tenemos una cuadrícula de Sudoku y tenemos que resolver este famoso problema de laberinto de números, Sudoku. Sabemos que el Sudoku es una cuadrícula de números de 9 x 9, y toda la cuadrícula también se divide en cuadros de 3 x 3. Hay algunas reglas para resolver el Sudoku.
 
 
