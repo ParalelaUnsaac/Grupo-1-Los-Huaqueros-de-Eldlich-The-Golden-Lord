@@ -33,10 +33,67 @@
 ### Enlace de diario personal
 -[Documento de Presentacion](https://docs.google.com/presentation/d/1e4iR5D2NYpV1ujiJVhsh8q3OvkaRal6wfqB3RgLqrEc/edit?usp=sharing)
 ### Descripcion del problema
-Supongamos que tenemos una cuadrícula de Sudoku y tenemos que resolver este famoso problema de laberinto de números, Sudoku. Sabemos que el Sudoku es una cuadrícula de números de 9 x 9, y toda la cuadrícula también se divide en cuadros de 3 x 3. Hay algunas reglas para resolver el Sudoku.
-Tenemos que usar los dígitos del 1 al 9 para resolver este problema.
+Supongamos que tenemos una cuadrícula de Sudoku y tenemos que resolver este famoso problema de laberinto de números, Sudoku. Sabemos que el Sudoku es una cuadrícula de números de N x N, y toda la cuadrícula también se divide en cuadros de sqrt(N) x sqrt(N). Hay algunas reglas para resolver el Sudoku.
+Tenemos que usar los dígitos del 1 al N para resolver este problema.
 
-No se puede repetir un dígito en una fila, una columna o en una casilla de 3 x 3.
+# -No se puede repetir un dígito en una fila, una columna o en una casilla de sqrt(N) x sqrt(N).
 
-Usando el algoritmo de retroceso, intentaremos resolver el problema de Sudoku. Cuando alguna celda se llena con un dígito, comprueba si es válido o no. Cuando no es válido, busca otros números. Si se marcan todos los números del 1 al 9 y no se encuentra ningún dígito válido para colocar, retrocede a la opción anterior
+Usando el algoritmo de Bractraking paralelo intentaremos resolver el problema de Sudoku. Cuando alguna celda se llena con un dígito, comprueba si es válido o no. Cuando no es válido, busca otros números. Si se marcan todos los números del 1 al N y no se encuentra ningún dígito válido para colocar, retrocede a la opción anterior
+Para solucionar esto, seguiremos estos pasos:
+
+Defina un método llamado isPresentInCol (), esto tomará llamada y num
+
+para cada fila r en la cuadrícula, haz
+
+si grid [r, col] = num, devuelve verdadero
+
+devolver falso de lo contrario
+
+Defina un método llamado isPresentInRow (), esto tomará fila y num
+
+para cada columna c en la cuadrícula, haga
+
+si cuadrícula [fila, c] = num, entonces devuelve verdadero
+
+devolver falso de lo contrario
+
+Defina un método llamado isPresentInBox () esto tomará boxStartRow, boxStartCol, num
+
+para cada fila r en boxStartRow a las siguientes 3 filas, haga
+
+para cada color en boxStartCol a las siguientes 3 columnas, haga
+
+si cuadrícula [r, c] = num, entonces devuelve verdadero
+
+devolver falso de lo contrario
+
+Defina un método llamado findEmptyPlace (), esto tomará fila y columna
+
+para cada fila r en la cuadrícula, haz
+
+para cada columna c en la cuadrícula, haga
+
+si grid [r, c] = 0, devuelve verdadero
+
+falso retorno
+
+Defina un método llamado isValidPlace (), esto tomará fila, columna, num
+
+si isPresentInRow (fila, num) y isPresentInCol (col, num) e isPresntInBox (fila - fila mod 3, col - col mod 3, num) todos son falsos, entonces devuelve verdadero
+
+Defina un método llamado solveSudoku (), esto tomará la cuadrícula
+
+si ningún lugar en la cuadrícula está vacío, devuelve verdadero
+
+para el número 1 al 9, haz
+
+si isValidPlace (fila, columna, número), entonces
+
+cuadrícula [fila, columna]: = número
+
+si solveSudoku = true, devuelve true
+
+cuadrícula [fila, columna]: = 0
+
+falso retorno
 
