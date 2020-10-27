@@ -1,22 +1,21 @@
 		    GNU GENERAL PUBLIC LICENSE
-		       Version 2, June 1991
+		       Version 2, 26 Octubre 2020
 
- Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+ Copyright (C) 2020 Free Software
+ Todo el mundo está autorizado a copiar y distribuir copias textuales.
+ de este documento de licencia, pero no se permite cambiarlo.
 
-			    Preamble
+                          Preámbulo
 
-  The licenses for most software are designed to take away your
-freedom to share and change it.  By contrast, the GNU General Public
-License is intended to guarantee your freedom to share and change free
-software--to make sure the software is free for all its users.  This
-General Public License applies to most of the Free Software
-Foundation's software and to any other program whose authors commit to
-using it.  (Some other Free Software Foundation software is covered by
-the GNU Lesser General Public License instead.)  You can apply it to
-your programs, too.
+  Las licencias de la mayoría del software están diseñadas para eliminar su
+libertad para compartirlo y cambiarlo. Por el contrario, el público general de GNU
+La licencia está destinada a garantizar su libertad para compartir y cambiar gratis
+software: para asegurarse de que el software sea gratuito para todos sus usuarios. Esta
+La licencia pública general se aplica a la mayor parte del software libre
+Software de la Fundación y a cualquier otro programa cuyos autores se comprometan a
+usándolo. (Algún otro software de la Free Software Foundation está cubierto por
+la Licencia Pública General Reducida GNU en su lugar.) Puede aplicarla a
+sus programas también.
 
   When we speak of free software, we are referring to freedom, not
 price.  Our General Public Licenses are designed to make sure that you
