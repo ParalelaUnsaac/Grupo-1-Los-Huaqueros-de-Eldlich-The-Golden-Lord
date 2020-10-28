@@ -1,2 +1,4 @@
+7 Oct - en clase hicimos los proyectos y sus GitHub
+14Oct - 4/7 contribuyeron en el proyecto. Si tienen problema. No tienen explicación del proceso
 21 Oct : tienen codigo, esta en visual. Estan traducinedo al español las variables del codigo reusado. 
 	 Todos colaboran en GitHub. No hay paralelización aun. No hay Readme. Documentación de porque el openMP.
