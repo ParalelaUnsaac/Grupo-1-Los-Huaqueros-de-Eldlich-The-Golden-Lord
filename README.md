@@ -21,7 +21,7 @@
 ---
 ## Tema
 
-.Programa que soluciona un sudoku nxn, con un algoritmo de backtraking
+.Programa que soluciona un sudoku nxn, con un algoritmo de backtraking.
 
 ### Implementado en:
 - Lenguaje:C++ and Python
