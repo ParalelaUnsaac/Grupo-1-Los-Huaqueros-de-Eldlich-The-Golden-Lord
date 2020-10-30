@@ -1,4 +1,12 @@
-7 Oct - en clase hicimos los proyectos y sus GitHub
+7Oct - en clase hicimos los proyectos y sus GitHub
+
 14Oct - 4/7 contribuyeron en el proyecto. Si tienen problema. No tienen explicación del proceso
-21 Oct : tienen codigo, esta en visual. Estan traducinedo al español las variables del codigo reusado. 
+
+21Oct - tienen codigo, esta en visual. Estan traducinedo al español las variables del codigo reusado. 
 	 Todos colaboran en GitHub. No hay paralelización aun. No hay Readme. Documentación de porque el openMP.
+
+28Oct - tiene colab, organizan bien por modulos, solo el pragma parallel (porque ninguna clausula fue usada?)(pointofix)(openboard). Falta planificación, Falta explicacíon de que dejaron como serial, y cual es fork Comparacion de tiempos. hasta que punto sólo serial seria viable?
+
+29Oct - El diario en Github es de solo el dia 14 oct. 
+  	la conclusion en el Colab se quedó a media explicación. 
+	pocas clausulas y constructos omp
