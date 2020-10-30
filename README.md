@@ -42,3 +42,5 @@ Usando el algoritmo de Bractraking paralelo intentaremos resolver el problema de
 
 #### ¿Porque paralelizamos y Como?
 Paralelisamos porque nuestro algoritmo se demora en resolver programas complejos
+### Codigo del Programa Sudok
+(https://colab.research.google.com/drive/13WkwuF6hRlD2VDzaT-ldulVLf7UFBXhr?usp=sharing)
