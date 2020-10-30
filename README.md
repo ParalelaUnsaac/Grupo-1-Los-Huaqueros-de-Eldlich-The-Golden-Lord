@@ -44,5 +44,5 @@ Usando el algoritmo de Bractraking paralelo intentaremos resolver el problema de
 Paralelisamos porque nuestro algoritmo optimisa el tiempo de ejecución, para tamaños mayores de 9. Y este paralelismo lo realizamos utilizanod la directiva for, que nos permite 
 distribuir un arreglo o hacer cortes (chunks)  en N hilos(threads). Y asi cada thead ejecuta una solucion posible
 
-### Codigo del Programa Sudoko
+### Codigo del Programa Sudoku
 [SudokuCConMoDEf.ipynb](https://colab.research.google.com/drive/13WkwuF6hRlD2VDzaT-ldulVLf7UFBXhr?usp=sharing)
